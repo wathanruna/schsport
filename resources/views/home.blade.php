@@ -49,7 +49,6 @@
                 <div class="container">
                     @foreach ($keview as $keview )
                         <h1>{{$keview->name}}</h1>
-                        
                         <img src="{{$keview->gambar}}" width="60%">
                         <p>{{$keview->deskripsi}}</p>
                         <h4>{{$keview->tempat}}</h4>

@@ -49,7 +49,7 @@
                 <div class="container">
                     @foreach ($keview as $keview )
                         <h1>{{$keview->name}}</h1>
-                        <h3>Kategori: {{$keview->kategori}}</h3>
+                        
                         <img src="{{$keview->gambar}}" width="60%">
                         <p>{{$keview->deskripsi}}</p>
                         <h4>{{$keview->tempat}}</h4>
@@ -65,9 +65,9 @@
                         <div class="card-header bg-transparent border-black"><h2 class="text-black">Kategori</h2></div>
                             <hr>
                         <div class="card-body text-black">
-                             <p>{{$keview->kategori}}</p>
-                             <p>{{$keview->kategori}}</p>
-                             <p>{{$keview->kategori}}</p>
+                             <p>Bola besar</p>
+                             <p>Bola kecil</p>
+                             <p>Atletik</p>
                             </div>
 						</div>
                         <div class="card-header bg-transparent border-black"><h2 class="text-black">Artikel</h2></div>
